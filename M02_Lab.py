@@ -9,7 +9,7 @@ while True:
     gpa = None
     while not gpa:
         try:
-            gpa = float(input("What's your GPA?: "))
+            gpa = float(input("What's your GPA?: ").strip())
         except ValueError:
             print("Value entered must be a number.")
     if gpa > 3.5:
