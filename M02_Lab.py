@@ -3,7 +3,7 @@
 # Will test gpas and tell user if a person has made Dean's list or Honor roll.
 while True:
     last_name = input("What's your last name?: ").strip().capitalize()
-    if last_name == "ZZZ":
+    if last_name.lower() == "ZZZ":
         break # Not sure why we do this
     first_name = input("What's your first name?: ").strip().capitalize()
     gpa = None
